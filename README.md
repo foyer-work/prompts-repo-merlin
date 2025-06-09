@@ -7,3 +7,4 @@
 - Then install node.js by pasting `brew install node` & press enter.
 - verify everything so far is working by pasting `node -v` & press enter. It should show your node.js version. This tells you everything is working.
 - now paste `npm install -g @anthropic-ai/claude-code` in your terminal and press enter. Claude code is installed!
+- now press `claude` in your terminal & press enter
