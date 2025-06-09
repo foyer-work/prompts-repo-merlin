@@ -3,9 +3,9 @@
 - search for "terminal" & select terminal from the listed options
 - Next, To Install homebrew paste this in terminal `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` & press enter.
 - Then using homebrew, install zsh by pasting `brew install zsh` and press enter.
-- if it says brew not found, paste `echo >> /Users/reubendas/.zprofile
-  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/reubendas/.zprofile
-  eval "$(/opt/homebrew/bin/brew shellenv)"` and press enter.
+- if it says brew not found, paste `echo >> "/Users/$USER/.zprofile"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> "/Users/$USER/.zprofile"
+eval "$(/opt/homebrew/bin/brew shellenv)"` and press enter.
 - press `source ~/.zshrc` & press enter.
 - Then a cleaner ui called "oh my zsh" by pasting `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` & press enter.
 - Then install node.js by pasting `brew install node` & press enter.
